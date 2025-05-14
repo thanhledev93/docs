@@ -14,7 +14,7 @@
         "tab": "Web",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Về Techpro P2MS",
             "pages": [
               "index",
               "quickstart",
@@ -54,34 +54,13 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Trung tâm trợ giúp TECHPRO P2MS",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.jpg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
+
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify",
