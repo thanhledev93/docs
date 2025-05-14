@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "TESTING 1",
+        "tab": "Web",
         "groups": [
           {
             "group": "Get Started",
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Mobile",
         "groups": [
           {
             "group": "API Documentation",
@@ -58,19 +58,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Trung tâm trợ giúp TECHPRO P2MS",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
