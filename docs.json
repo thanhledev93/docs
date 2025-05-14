@@ -22,14 +22,14 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Dữ liệu gốc",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "masterdata/zone",
+              "masterdata/code",
+              "masterdata/images",
+              "masterdata/settings",
+              "masterdata/navigation",
+              "masterdata/reusable-snippets"
             ]
           }
         ]
