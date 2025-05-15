@@ -23,11 +23,8 @@
             "group": "Dữ liệu gốc",
             "pages": [
               "masterdata/zone",
-              "masterdata/code",
-              "masterdata/images",
-              "masterdata/settings",
-              "masterdata/navigation",
-              "masterdata/reusable-snippets"
+              "masterdata/checkpoint",
+              "masterdata/procedure"
             ]
           },
           {
