@@ -38,9 +38,11 @@
             "pages": [
               "patrol/homepage",
               "patrol/tourhistorytracking",
+              "patrol/incidenttour",
               "patrol/plantour",
               "patrol/leave",
               "patrol/attendance"
+              
             ]
           }
         ]
