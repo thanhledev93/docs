@@ -28,7 +28,8 @@
               "masterdata/route",
               "masterdata/device",
               "masterdata/leavereason",
-              "masterdata/shift"
+              "masterdata/shift",
+              "masterdata/incident"
               
             ]
           },
