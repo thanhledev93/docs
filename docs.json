@@ -29,6 +29,16 @@
               "masterdata/navigation",
               "masterdata/reusable-snippets"
             ]
+          },
+          {
+            "group": "Tuần tra",
+            "pages": [
+              "patrol/homepage",
+              "patrol/tourhistorytracking",
+              "patrol/plantour",
+              "patrol/leave",
+              "patrol/attendance"
+            ]
           }
         ]
       },
