@@ -25,7 +25,8 @@
               "masterdata/zone",
               "masterdata/checkpoint",
               "masterdata/procedure",
-              "masterdata/route"
+              "masterdata/route",
+              "masterdata/device"
             ]
           },
           {
