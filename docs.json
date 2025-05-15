@@ -26,7 +26,8 @@
               "masterdata/checkpoint",
               "masterdata/procedure",
               "masterdata/route",
-              "masterdata/device"
+              "masterdata/device",
+              "masterdata/leavereason"
             ]
           },
           {
