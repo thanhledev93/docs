@@ -24,7 +24,8 @@
             "pages": [
               "masterdata/zone",
               "masterdata/checkpoint",
-              "masterdata/procedure"
+              "masterdata/procedure",
+              "masterdata/route"
             ]
           },
           {
