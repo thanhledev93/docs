@@ -49,7 +49,10 @@
             "group": "Báo cáo",
             "pages": [
               "report/reporttourhistorytracking",
-              "report/incidenthistory"
+              "report/incidenthistory",
+              "report/attendancehistory",
+              "report/incidenttourreport",
+              "report/patrolreport"
             ]
           }
         ]
