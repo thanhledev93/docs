@@ -1,0 +1,84 @@
+---
+title: "Thống kê sự cố"
+description: "Xem thống kê sự cố được bảo vệ báo cáo và tình trạng xử lý."
+icon: "life-ring"
+---
+
+## Tìm kiếm và hiển thị thống kê sự cố
+
+Cho phép xem thống kê sự cố theo mã, tên bảo vệ, nhóm bảo vệ, thời gian bắt đầu và thời gian kết thúc.
+
+**Thao tác trên phần mềm**
+
+1. Vào phân hệ **Báo cáo / Thống kê sự cố**.
+2. Chọn mã, tên bảo vệ, nhóm bảo vệ, thời gian bắt đầu và thời gian kết thúc để hiển thị thống kê sự cố tương ứng.
+3. Nhấn **Tìm kiếm** để hiển thị danh sách theo tiêu chí chọn tương ứng.
+
+<img
+  src="/images/Group172.png"
+  alt="Screenshot 2025-05-15 at 10.58.35.png"
+  title="Screenshot 2025-05-15 at 10.58.35.png"
+  className="border mr-auto"
+/>
+
+| STT | Trường                                             | Mô tả                                                                                                                                                                                                                                      |
+| :-- | :------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Chọn theo mã hoặc tên bảo vệ                       | Mã hoặc tên bảo vệ trong tổ chức.                                                                                                                                                                                                          |
+| 2   | Chọn tên nhóm bảo vệ                               | Tên nhóm bảo vệ.                                                                                                                                                                                                                           |
+| 3   | Thời gian bắt đầu                                  | Thời gian bắt đầu sự cố.                                                                                                                                                                                                                   |
+| 4   | Thời gian kết thúc                                 | Thời gian kết thúc sự cố.                                                                                                                                                                                                                  |
+| 5   | Tổng số sự cố                                      | Tổng sự cố được tạo theo lựa chọn từ bộ lọc.                                                                                                                                                                                               |
+| 5   | Sự cố đã xử lý                                     | Tổng sự cố có trạng thái "Hoàn thành" theo lựa chọn từ bộ lọc.                                                                                                                                                                             |
+| 5   | Thời gian xử lý (phút)                             | Trung bình thời gian xử lý sự cố.<br /><br />Cách tính: tổng thời gian xử lý từng sự cố / tổng sự cố                                                                                                                                       |
+| 5   | Tỉ lệ hoàn thành (%)                               | Tỉ lệ sự cố được xử lý và có trạng thái "Hoàn thành.<br /><br />Cách tính: (Sự cố đã xử lý / Tổng số sự cố)\*100                                                                                                                           |
+| 6   | Biểu đồ thống kê sự cố theo loại sự cố             | Biểu đồ phản ánh tỉ lệ tất cả sự cố theo lựa chọn từ bộ lọc. Tham khảo Dữ liệu gốc / Sự cố. Từ đó giúp người dùng thấy tổng quan loại sự cố thường xuyên xảy ra để tìm cách khắc phục.                                                     |
+| 6   | Biểu đồ thống kê sự cố theo tình trạng xử lý sự cố | Biểu đồ phản ánh tỉ lệ tình trạng của tất cả sự cố theo lựa chọn từ bộ lọc. Có 4 loại trạng thái xử lý sự cố: tạo mới, đang thực hiện, tạm hoãn, hoàn thành. Từ đó giúp người dùng thấy tổng số sự cố hoàn thành, đang thực hiện, tạo mới. |
+| 7   | Khu vực                                            | Tên khu vực xảy ra sự cố.                                                                                                                                                                                                                  |
+| 7   | Tuyến đi tuần                                      | Tên tuyến có sự cố xảy ra.                                                                                                                                                                                                                 |
+| 7   | Vị trí                                             | Vị trí sự cố được bảo vệ báo cáo.                                                                                                                                                                                                          |
+| 7   | Bảo vệ                                             | Tên bảo vệ báo cáo sự cố.                                                                                                                                                                                                                  |
+| 7   | Ngày                                               | Ngày bảo vệ tạo sự cố.                                                                                                                                                                                                                     |
+| 7   | Sự cố                                              | Tên sự cố.                                                                                                                                                                                                                                 |
+| 7   | Trạng thái                                         | Trạng thái xử lý của sự cố. Có 4 loại trạng thái xử lý sự cố: tạo mới, đang thực hiện, tạm hoãn, hoàn thành.                                                                                                                               |
+| 7   | Bắt đầu                                            | Thời gian sự cố được bắt đầu chuyển trạng thái là "Đang xử lý".                                                                                                                                                                            |
+| 7   | Kết thúc                                           | Thời gian sự cố được bảo vệ đánh dấu trạng thái là "Hoàn thành".                                                                                                                                                                           |
+| 7   | Tổng thời gian (phút)                              | Tổng thời gian xử lý sự cố. <br /><br />Cách tính: Kết thúc - Bắt đầu.                                                                                                                                                                     |
+
+## Xem chi tiết sự cố
+
+Xem chi tiết thông tin sự cố bảo vệ báo cáo.
+
+**Thao tác trên phần mềm**
+
+1. Vào phân hệ **Báo cáo / Thống kê sự cố**.
+2. Tại Danh sách sự cố, nhấp đúp chuột vào 1 ô sự cố để xem thông tin chi tiết sự cố đó.
+
+<img
+  src="/images/Group173.png"
+  alt="Screenshot 2025-05-15 at 10.58.35.png"
+  title="Screenshot 2025-05-15 at 10.58.35.png"
+  className="border mr-auto"
+/>
+
+<img
+  src="/images/image117.png"
+  alt="Screenshot 2025-05-15 at 10.58.35.png"
+  title="Screenshot 2025-05-15 at 10.58.35.png"
+  className="border mr-auto"
+/>
+
+## Xuất Excel danh sách sự cố
+
+Xuất file Excel danh sách sự cố.
+
+**Thao tác trên phần mềm**
+
+1. Vào phân hệ **Báo cáo / Thống kê sự cố**.
+2. Trên giao diện Thống kê sự cố, chọn **Xuất Excel**.
+
+<img
+  src="/images/Group174.png"
+  alt="Screenshot 2025-05-15 at 10.58.35.png"
+  title="Screenshot 2025-05-15 at 10.58.35.png"
+  className="border mr-auto"
+/>
