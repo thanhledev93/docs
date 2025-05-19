@@ -1,32 +1,25 @@
-# Mintlify Starter Kit
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+# Trung tâm trợ giúp TECHPRO CMMS
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+Chào mừng bạn đến với trung tâm trợ giúp TECHPRO CMMS. Bạn sẽ tìm thấy tổng quan về các tính năng của TECHPRO CMMS, giải thích về các khái niệm quan trọng và hướng dẫn từng bước.
 
-### Development
+Chúng tôi đang xây dựng trung tâm trợ giúp này như một tài liệu tham khảo hữu ích để trả lời các câu hỏi của bạn về cách sử dụng TECHPRO CMMS và giúp bạn khắc phục sự cố thường gặp. Nếu bạn mới sử dụng TECHPRO CMMS, đây cũng là một nguồn tài nguyên học tập hữu ích.
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+### GIỚI THIỆU TECHPRO CMMS
 
-```
-npm i -g mintlify
-```
+TECHPRO CMMS là hệ thống quản lý bảo trì điện toán (CMMS) dựa trên đám mây. Hệ thống này giúp các tổ chức quản lý, theo dõi, tự động hóa và triển khai các hoạt động bảo trì nhanh chóng và dễ dàng.
 
-Run the following command at the root of your documentation (where docs.json is)
-
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+Ngoài phiên bản Web, TECHPRO CMMS còn hỗ trợ phiên bản mobile giúp nhân viên bảo trì có thể theo dõi và thực hiện công việc bảo trì mọi lúc mọi nơi ngay trên chính thiết bị smartphone của mình.
