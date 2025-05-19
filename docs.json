@@ -54,6 +54,12 @@
               "p2ms/report/incidenttourreport",
               "p2ms/report/patrolreport"
             ]
+          },
+          {
+            "group": "Ứng dụng di động (Mobile app)",
+            "pages": [
+              "p2ms/report/reporttourhistorytracking"
+            ]
           }
         ]
       },
