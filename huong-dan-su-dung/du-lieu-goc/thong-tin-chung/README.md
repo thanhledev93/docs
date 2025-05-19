@@ -1,2 +1,0 @@
-# Thông tin chung
-

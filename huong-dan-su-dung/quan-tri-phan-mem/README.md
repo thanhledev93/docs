@@ -1,2 +1,0 @@
-# Quản trị phần mềm
-
