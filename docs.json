@@ -11,48 +11,48 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Web",
+        "tab": "P2MS",
         "groups": [
           {
             "group": "Về Techpro P2MS",
             "pages": [
-              "index"
+              "p2ms/index"
             ]
           },
           {
             "group": "Dữ liệu gốc",
             "pages": [
-              "masterdata/zone",
-              "masterdata/checkpoint",
-              "masterdata/procedure",
-              "masterdata/route",
-              "masterdata/device",
-              "masterdata/leavereason",
-              "masterdata/shift",
-              "masterdata/incident",
-              "masterdata/guardgroup"
+              "p2ms/masterdata/zone",
+              "p2ms/masterdata/checkpoint",
+              "p2ms/masterdata/procedure",
+              "p2ms/masterdata/route",
+              "p2ms/masterdata/device",
+              "p2ms/masterdata/leavereason",
+              "p2ms/masterdata/shift",
+              "p2ms/masterdata/incident",
+              "p2ms/masterdata/guardgroup"
             ]
           },
           {
             "group": "Tuần tra",
             "pages": [
-              "patrol/homepage",
-              "patrol/tourhistorytracking",
-              "patrol/incidenttour",
-              "patrol/plantour",
-              "patrol/leave",
-              "patrol/attendance"
+              "p2ms/patrol/homepage",
+              "p2ms/patrol/tourhistorytracking",
+              "p2ms/patrol/incidenttour",
+              "p2ms/patrol/plantour",
+              "p2ms/patrol/leave",
+              "p2ms/patrol/attendance"
               
             ]
           },
           {
             "group": "Báo cáo",
             "pages": [
-              "report/reporttourhistorytracking",
-              "report/incidenthistory",
-              "report/attendancehistory",
-              "report/incidenttourreport",
-              "report/patrolreport"
+              "p2ms/report/reporttourhistorytracking",
+              "p2ms/report/incidenthistory",
+              "p2ms/report/attendancehistory",
+              "p2ms/report/incidenttourreport",
+              "p2ms/report/patrolreport"
             ]
           }
         ]
