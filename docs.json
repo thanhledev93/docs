@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "P2MS",
+        "tab": "TECHPRO P2MS",
         "groups": [
           {
             "group": "Về Techpro P2MS",
@@ -58,7 +58,47 @@
         ]
       },
       {
-        "tab": "Mobile",
+        "tab": "TECHPRO CMMS",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "TECHPRO CARPARKING",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "TECHPRO VIME",
         "groups": [
           {
             "group": "API Documentation",
