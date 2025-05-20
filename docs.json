@@ -58,7 +58,13 @@
           {
             "group": "Ứng dụng di động",
             "pages": [
-              "p2ms/report/reporttourhistorytracking"
+              "p2ms/mobile/account",
+              "p2ms/mobile/accountsettings",
+              "p2ms/mobile/wokspaces",
+              "p2ms/mobile/general",
+              "p2ms/mobile/patrol",
+              "p2ms/mobile/incident",
+              "p2ms/mobile/attendance"
             ]
           }
         ]
