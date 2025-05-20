@@ -1,5 +1,100 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Sự cố"
+description: "Xem danh sách sự cố và tạo mới sự cố phát sinh ngoài kế hoạch tuần tra."
 ---
 
+## Xem danh sách sự cố
+
+Cho phép bảo vệ xem danh sách sự cố đã tạo.
+
+**Thao tác trên phần mềm**
+
+1. Vào phân hệ **Sự cố**.
+2. Trên giao diện danh sách sự cố sẽ mặc định hiển thị ngày hiện tại, lựa chọn 1 ngày để xem danh sách sự cố đã tạo của ngày đó.
+
+<img
+  src="/images/Group234.png"
+  alt="Group 234.png"
+  style={{ width:"28%" }}
+/>
+
+**Thông tin lịch sử sự cố:**
+
+| Trường        | Mô tả                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Sự cố         | Tên sự cố                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Khu vực       | Tên khu vực tuần tra.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Kế hoạch      | Có 2 trường hợp:<br />\*\*Sự cố được tạo khi bắt đầu thực hiện 1 ca tuần tra: \*\*có hiển thị tên kế hoạch.<br />\*\*Sự cố phát sinh, không được tạo khi thực hiện bắt kỳ ca tuần tra nào mà được tạo tại phân hệ Sự cố: \*\*không hiển thị tên kế hoạch.                                                                                                                                                                 |
+| Tuyến đi tuần | Tên tuyến đi tuần.                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Trạng thái    | Trạng thái xử lý sự cố. Gồm 4 loại trạng thái:<br />**Tạo mới:** sự cố chưa được xử lý. Được phép cập nhật và chỉnh sửa trạng thái.<br />**Đang thực hiện:** sự cố đang được xử lý. Được phép cập nhật và chỉnh sửa trạng thái.<br />\*\*Tạm hoãn: \*\*sự cố được tạm hoãn xử lý. Được phép cập nhật và chỉnh sửa trạng thái.<br />**Hoàn thành:** sự cố đã được xử lý. Không được phép cập nhật và chỉnh sửa trạng thái. |
+
+## Xem chi tiết sự cố
+
+Cho phép bảo vệ xem danh sách sự cố đã tạo.
+
+**Thao tác trên phần mềm**
+
+1. Vào phân hệ **Sự cố**.
+2. Trên giao diện danh sách lịch sử sự cố, nhấn chọn 1 sự cố.
+3. Nhấn **Sự cố** để xem thông tin chi tiết sự cố đã khai báo. Hoặc nhấn **Bản đồ** để xem vị trí diễn ra sự cố.
+
+<img
+  src="/images/Group235.png"
+  alt="Group 235.png"
+  style={{ width:"28%" }}
+/>
+
+![Group 236.png](/images/Group236.png)
+
+![Group 237.png](/images/Group237.png)
+
+## Thêm sự cố phát sinh
+
+Cho phép tạo mới sự cố phát sinh ngoài kế hoạch tuần tra..
+
+**Thao tác trên phần mềm**
+
+1. Vào phân hệ **Sự cố**.
+2. Trên giao diện lịch sử sự cố, nhấn **Thêm**.
+3. Khai báo thông tin cần thiết.
+4. Nhấn **Lưu**.
+
+![Group 238.png](/images/Group238.png)
+
+![Group 239 - Copy.png](/images/Group239-Copy.png)
+
+**Thông tin sự cố:**
+
+| Trường     | Mô tả                                                                       |
+| :--------- | :-------------------------------------------------------------------------- |
+| Khu vực    | Chọn tên khu vực xảy ra sự cố. Bắt buộc chọn.                               |
+| Loại sự cố | Chọn loại sự cố. Bắt buộc chọn.                                             |
+| Độ ưu tiên | Đánh giá mức độ ưu tiên xử lý sự cố. Gồm 3 mức độ: thấp - trung bình - cao. |
+| Ghi chú    | Thêm ghi chú cho sự cố.                                                     |
+| Hình ảnh   | Thêm 1 hoặc nhiều ảnh về sự cố. Không bắt buộc phải thêm ảnh.               |
+
+## Chỉnh sửa thông tin cho sự cố phát sinh
+
+Cho phép bảo vệ cập nhật thông tin cho quy trình của sự cố phát sinh.
+
+**Thao tác trên phần mềm**
+
+1. Vào phân hệ **Sự cố**.
+2. Trên giao diện danh sách Lịch sử sự cố, nhấn chọn 1 sự cố.
+3. Trên giao diện thông tin chi tiết sự cố, chuyển trạng thái sự cố từ **Tạo mới **sang **Đang thực hiện** để bắt đầu xử lý sự cố.
+4. Nhấn vào **Quy trình**.
+5. Trên giao diện thông tin chi tiết quy trình, thêm thông tin theo quy trình yêu cầu.
+6. Nhấn **Lưu**.
+7. Trở về giao diện thông tin chi tiết sự cố, nhấn **Dừng** để hệ thống tự động chuyển trạng thái sự cố từ **Đang thực hiện **sang **Hoàn thành**. 
+
+![Group 244.png](/images/Group244.png)
+
+![Group 241.png](/images/Group241.png)
+
+![Group 242.png](/images/Group242.png)
+
+![Group 243.png](/images/Group243.png)
+
+<Info>
+  Sau khi sự cố đã được chuyển sang trạng thái **Hoàn thành**, bảo vệ không được chỉnh sửa thông tin sự cố nữa.
+</Info>
