@@ -72,10 +72,16 @@
       {
         "tab": "TECHPRO CMMS",
         "groups": [
-          {
-            "group": "API Documentation",
+                    {
+            "group": "Về Techpro CMMS",
             "pages": [
-              "api-reference/introduction"
+              "index-cmms"
+            ]
+          },
+          {
+            "group": "Hệ thống",
+            "pages": [
+              "cmms/system/general"
             ]
           },
           {
