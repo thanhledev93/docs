@@ -79,13 +79,10 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Ứng dụng di động",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+              "cmms/mobile/test"
+              ]
           }
         ]
       },
