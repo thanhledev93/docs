@@ -95,7 +95,8 @@
           {
             "group": "Dữ liệu gốc",
             "pages": [
-              "cmms/masterdata/masterdata-general"
+              "cmms/masterdata/masterdata-general",
+              "cmms/masterdata/vendor"
               
             ]
           },
