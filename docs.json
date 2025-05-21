@@ -81,7 +81,9 @@
           {
             "group": "Hệ thống",
             "pages": [
-              "cmms/system/general"
+              "cmms/system/general",
+              "cmms/system/organization",
+              "cmms/system/users"
             ]
           },
           {
