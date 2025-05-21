@@ -83,7 +83,12 @@
             "pages": [
               "cmms/system/general",
               "cmms/system/organization",
-              "cmms/system/users"
+              "cmms/system/users",
+              "cmms/system/personinfo",
+              "cmms/system/security",
+              "cmms/system/ssoconf",
+              "cmms/system/notifconfig",
+              "cmms/system/emailconf"
             ]
           },
           {
