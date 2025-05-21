@@ -87,7 +87,10 @@
           {
             "group": "Ứng dụng di động",
             "pages": [
-              "cmms/mobile/test"
+              "cmms/mobileapp/account",
+              "cmms/mobileapp/asset",
+              "cmms/mobileapp/overview",
+              "cmms/mobileapp/workorder"
               ]
           }
         ]
