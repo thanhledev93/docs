@@ -5,18 +5,83 @@ description: "Tính năng quản lý danh sách công việc, xem thông tin chi
 
 # 1. Công việc
 
+1. Tại màn hình công việc, ứng dụng hiển thị toàn bộ các công việc được giao cho người dùng
+2. Người dùng có thể chọn xem các công việc được tạo bởi chính mình, công việc được giao cho nhóm của mình bằng cách chuyển sang các tab trên giao diện
+3. Để xem các công việc theo tháng, tuần, chọn biểu tượng "Lịch" trên màn hình. Màn hình lịch công việc sẽ hiển thị toàn bộ công việc có trong ngày hôm đó.
+4. Để xem công việc đang được thực hiện, nhấn biểu tượng "Làm việc" trên màn hình. Giao diện sẽ hiển thị công việc đang thực hiện lên màn hình cho người dùng theo dõi
+5. Tại giao diện công việc đang thực hiện, có thể nhấn dừng công việc, nếu nhấn nút "Dừng" trên màn hình theo dõi.
+   - Chèn hình ảnh
+
 # 2. Chi tiết công việc
 
 ## 2.1 Thông tin chung
 
+1. Tại màn hình danh sách công việc, để xem được thông tin chi tiết công việc, nhấn vào tên của công việc cần xem
+2. Ứng dụng sẽ hiện thị thông tin chi tiết của công việc gồm: Thông tin chung, Quy trình, Người thực hiện
+3. Người dùng có thể tùy chọn đóng/mở các nội dung để tiện theo dõi
+
+- chèn hình ảnh
+
 ## 2.2 Thời gian và vật tư
+
+1. Tại màn hình chi tiết công việc, chuyển sang giao diện Thời gian và vật tư
+2. Đối với màn hình này, nếu công việc có trạng thái Tạo mới, có thể thực hiện thao tác thêm vật tư, nếu công việc có trạng thái khác Tạo mới, không thể thực hiện thao tác thêm vật tư.
+3. Để thêm vật tư thay thế cho công việc, nhấn biểu tượng "Cộng" để mở giao diện chọn vật tư.
+4. Chọn các vật tư cần thêm vào công việc, sau đó nhấn nút "Hoàn thành", ứng dụng sẽ tự động chuyển về màn hình Thời gian và vật tư
+5. Chọn kho chưa vật tư kèm theo số lượng vật tư cần lấy từ kho đó, sau đó nhấn "Lưu" để lưu thông tin vật tư.
+6. Để chỉnh sửa thông tin vật tư, tại giao diện Thời gian và vật tư, nhấn biểu tượng "Sửa" để thực hiện chỉnh sửa, sau đó điều chỉnh và nhấn "Lưu" tương tự như bước 5
+7. Đối với việc thêm thời gian, nhấn biểu tương "Cộng" để mở giao diện thêm thời gian
+8. Tại giao diện thêm thời gian, chọn thời gian sau đó nhấn "Thêm" để thêm vào giao diện
+
+- Chèn hình ảnh
 
 ## 2.3 Thông tin xử lý sự cố
 
+1. Tại màn hình chi tiết công việc, chuyển sang giao diện Thông tin xử lý sự cố
+2. Để thêm thông tin xử lý sự cố, nhấn biểu tượng "Cộng" để mở giao diện thêm thông tin
+3. Chọn thông tin sự cố, nguyên nhân, phương án xử lý và quy trình. Sau đó nhấn "Lưu" để thêm thông tin vào giao diện Thông tin xử lý sự cố
+
+- Chèn hình ảnh
+
 ## 2.4 Tài liệu đính kèm
+
+1. Tại màn hình chi tiết công việc, chuyển sang giao diện Tài liệu đính kèm
+2. Tài liệu đính kèm cho công việc được thêm trên phần mềm Techpro CMMS. Tại giao diện ứng dụng có thể tải file xuống bằng cách nhấn vào tên file trên giao diện
+
+- Chèn hình ảnh
 
 ## 2.5 Trao đổi
 
+1. Tại màn hình chi tiết công việc, chuyển sang giao diện Trao đổi
+2. Để thực hiện trao đổi trên công việc, nhập nội dung vào ô bình luộn sau đó nhấn biểu tượng gửi để thực hiện trao đổi thông tin
+
+- Chèn hình ảnh
+
 ## 2.6 Hoạt động
+
+1. Ứng dụng ghi nhận lại các thao tác của người dùng đối với công việc
+2. Danh sách các thao tác được ghi nhận lịch sử:
+
+- Administrator **Đã tạo **Yêu cầu công việc **05/04/2023 15:52**  
+- Administrator **Chấp nhận** Yêu cầu công việcc **05/04/2023 14:52** 
+- Administrator **Từ chối **Yêu cầu công việc **05/04/2023 13:52** 
+- Administrator **Đã tạo **Công việc **05/04/2023 12:52** 
+- Administrator chuyển trạng thái công việc sang **Tạm ngưng** **05/04/2023 11:52** 
+- Administrator chuyển trạng thái công việc sang **Đang thực hiện 05/04/2023 10:52**
+- Administrator chuyển trạng thái công việc sang **Hoàn thành 05/04/2023 19:52 **
+- Administrator chuyển trạng thái công việc sang **Tạo mới** **05/04/2023 19:52 **
+- Administrator **Đã cập nhật **Công việc **05/04/2023 17:52** 
+- Administrator **Đã thêm nhóm **vào công việc**05/04/2023 16:52 ** 
+- Administrator **Đã xóa nhóm **khỏi công việc **05/04/2023 15:52 **
+- Administrator **Đã thêm quy trình **vào công việc **05/04/2023 14:52 **
+- Administrator **Đã xóa quy trình **khỏi công việc **05/04/2023 15:52** 
+- Administrator **Đã thêm vật tư **vào công việc **05/04/2023 15:52 **
+- Administrator **Đã xóa vật tư **khỏi công việc **05/04/2023 15:52** 
+- Administrator **Đã thêm thời gian **vào công việc **05/04/2023 15:52 **
+- Administrator **Đã xóa thời gian **khỏi công việc **05/04/2023 15:52**
+- Administrator **Đã thêm tài liệu **vào công việc **05/04/2023 15:52 **
+- Administrator **Đã xóa tài liệu **khỏi công việc **05/04/2023 15:52**
+- Administrator **Đã xóa** công việc **05/04/2023 15:52 **
+- Administrator **Đã thêm bình luận **vào công việc **05/04/2023 15:52**
 
 # 3. Thực hiện công việc
