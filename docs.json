@@ -93,6 +93,13 @@
             ]
           },
           {
+            "group": "Dữ liệu gốc",
+            "pages": [
+              "cmms/system/general"
+              
+            ]
+          },
+          {
             "group": "Ứng dụng di động",
             "pages": [
               "cmms/mobileapp/account",
