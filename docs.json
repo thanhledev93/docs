@@ -109,7 +109,11 @@
             "group": "Quản lý bảo trì",
             "pages": [
               "cmms/maintenance/asset",
-              "cmms/maintenance/workorder"
+              "cmms/maintenance/workorder",
+              "cmms/maintenance/woreport",
+              "cmms/maintenance/assetreport",
+              "cmms/maintenance/problemreport",
+              "cmms/maintenance/userreport"
           
             ]
           },
