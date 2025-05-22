@@ -108,7 +108,8 @@
           {
             "group": "Quản lý bảo trì",
             "pages": [
-              "cmms/maintenance/asset"
+              "cmms/maintenance/asset",
+              "cmms/maintenance/workorder"
           
             ]
           },
