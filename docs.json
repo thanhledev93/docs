@@ -97,7 +97,11 @@
             "pages": [
               "cmms/masterdata/masterdata-general",
               "cmms/masterdata/vendor",
-              "cmms/masterdata/location"
+              "cmms/masterdata/location",
+              "cmms/masterdata/itemgroup",
+              "cmms/masterdata/item",
+              "cmms/masterdata/procedure",
+              "cmms/masterdata/worequest"
               
             ]
           },
