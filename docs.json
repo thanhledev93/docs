@@ -118,6 +118,31 @@
             ]
           },
           {
+            "group": "Thu thập dữ liệu",
+            "pages": [
+              "cmms/maintenance/deviceconection",
+              "cmms/maintenance/dataconectionconversion",
+              "cmms/maintenance/dataconection"         
+            ]
+          },
+          {
+            "group": "Quản lý kho bảo trì",
+            "pages": [
+              "cmms/maintenance/stockin",
+              "cmms/maintenance/stockadjustment",
+              "cmms/maintenance/stockzone",
+              "cmms/maintenance/stockdetail"       
+            ]
+          },
+          {
+            "group": "Quản trị phần mềm",
+            "pages": [
+              "cmms/maintenance/createdorganization",
+              "cmms/maintenance/personalinformation",
+              "cmms/maintenance/workorderoutsideorg"         
+            ]
+          },
+          {
             "group": "Ứng dụng di động",
             "pages": [
               "cmms/mobileapp/account",
