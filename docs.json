@@ -121,8 +121,8 @@
             "group": "Thu thập dữ liệu",
             "pages": [
               "cmms/datacollection/deviceconection",
-              "cmms/datacollection/dataconectionconversion",
-              "cmms/datacollection/dataconection"         
+              "cmms/datacollection/datacollectionconversion",
+              "cmms/datacollection/datacollection"         
             ]
           },
           {
@@ -139,7 +139,7 @@
             "pages": [
               "cmms/softwaremanage/createdorganization",
               "cmms/softwaremanage/personalinformation",
-              "cmms/softwaremanage/workorderoutsideorg"         
+              "cmms/softwaremanage/workorderoutsiteorg"         
             ]
           },
           {
